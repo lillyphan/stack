@@ -50,4 +50,5 @@ public class StackNode<E> {
         //overrides Objects' equals and returns a string specifying whether the data of each Node is equal using .equals
         return data.equals(node.data);
     }
+
 }
