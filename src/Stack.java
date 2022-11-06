@@ -2,8 +2,7 @@ public class Stack<E>{
     private StackNode<E> top = null;
     private int size = 0;
 
-    public void Stack(){
-    }
+    public Stack(){}
 
     public int size(){
         return size;
@@ -25,8 +24,8 @@ public class Stack<E>{
         } else {
             topData = top.getData();
             StackNode<E> oldTop = top;
-            top.setChild(null);
             top = oldTop.getChild();
+            oldTop.setChild(null);
             size--;
         }
         return topData;
