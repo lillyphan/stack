@@ -30,4 +30,12 @@ public class Stack<E>{
         }
         return topData;
     }
+
+    public E peek(){
+        if (isEmpty()){
+            return null;
+        } else {
+            return top.getData();
+        }
+    }
 }
