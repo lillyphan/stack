@@ -5,6 +5,7 @@
  * On My Honor, I confirm that I followed all collaboration policy guidelines, and that the work I am submitting is my own: LP
  **/
 
+//a driver that tests the functions of StackNode and Stack
 public class testDriver {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();

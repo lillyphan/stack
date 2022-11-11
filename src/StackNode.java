@@ -5,6 +5,7 @@
  * On My Honor, I confirm that I followed all collaboration policy guidelines, and that the work I am submitting is my own: LP
  **/
 
+//StackNode is a modified Node without a reference to a parent, basic unit of Stack
 public class StackNode<E> {
     private StackNode<E> child;
     private E data;

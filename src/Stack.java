@@ -5,6 +5,7 @@
  * On My Honor, I confirm that I followed all collaboration policy guidelines, and that the work I am submitting is my own: LP
  **/
 
+//an object representing data structure Stack
 public class Stack<E>{
     private StackNode<E> top = null; //reference to the "top" Node of the Stack
     private int size = 0; //number of elements in Stack
